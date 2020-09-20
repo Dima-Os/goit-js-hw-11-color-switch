@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dima-Os/{{goit-js-hw-10-food-service.git}}"
+    "url": "git+https://github.com/Dima-Os/goit-js-hw-11-color-switch"
   },
   "keywords": [],
   "author": "Dima Osipov <osipovdima1989@gmail.com>",
@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/luxplanjay/webpack-starter-kit/issues"
   },
-  "homepage": "https://github.com/Dima-Os/{{goit-js-hw-10-food-service.git}}",
+  "homepage": "https://github.com/Dima-Os/goit-js-hw-11-color-switch",
   "devDependencies": {
     "@babel/core": "^7.8.7",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
