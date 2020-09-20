@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dima-Os/goit-js-hw-11-color-switch"
+    "url": "git+https://github.com/Dima-Os/goit-js-hw-11-color-switch.git"
   },
   "keywords": [],
   "author": "Dima Osipov <osipovdima1989@gmail.com>",
@@ -49,7 +49,9 @@
     "webpackbar": "^4.0.0"
   },
   "dependencies": {
+    "build": "^0.1.4",
     "core-js": "^3.6.4",
+    "fs": "0.0.1-security",
     "handlebars": "^4.7.3"
   }
 }
