@@ -22,12 +22,15 @@ const onStartHendler = () => {
     changeColor(colors[randomIntegerFromInterval(0, colors.length - 1)]);
   }, 1000);
   refs.start.setAttribute('disabled', 'disabled');
+  refs.stop.removeAttribute('disabled');
 };
 
 const onStopHendler = () => {
   clearInterval(startIntervalChanging);
   refs.start.removeAttribute('disabled');
+  refs.stop.setAttribute('disabled', 'disabled');
 };
 
 refs.start.addEventListener('click', onStartHendler);
 refs.stop.addEventListener('click', onStopHendler);
+refs.stop.setAttribute('disabled', 'disabled');
